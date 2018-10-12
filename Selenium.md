@@ -30,7 +30,7 @@ browser.quit()
   options = webdriver.ChromeOptions()
   options.add_argument('headless')
   ```
-  - Now, start the driver and run the tests as did earlier
+  - Now, start the driver and run the tests as we did earlier
   ```sh
   browser = webdriver.Chrome(options = options)
 
